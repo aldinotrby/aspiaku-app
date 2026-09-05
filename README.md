@@ -1,16 +1,67 @@
-# React + Vite
+# AspiAKU Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Aplikasi frontend untuk sistem pelaporan aspirasi dan keluhan masyarakat.
 
-Currently, two official plugins are available:
+## 🚀 Quick Start
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Prerequisites
+- Node.js 18+ dan npm 9+
+- Windows dengan PowerShell
 
-## React Compiler
+### Instalasi & Menjalankan
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```powershell
+# 1. Install dependencies
+npm install
 
-## Expanding the Oxlint configuration
+# 2. Jalankan development server
+npm run dev
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+# 3. Buka browser ke http://localhost:5173
+```
+
+### Build untuk Production
+
+```powershell
+npm run build
+npm run preview
+```
+
+## 📖 Dokumentasi Lengkap
+
+Lihat [CARA_MENJALANKAN_APLIKASI.md](./CARA_MENJALANKAN_APLIKASI.md) untuk panduan detail.
+
+## 🎯 Demo
+
+- **URL**: http://localhost:5173/
+- **Demo OTP**: `123456`
+- **Admin Login**: `admin` / `admin123`
+
+## 🛠️ Development
+
+```powershell
+npm run lint        # Linting
+npx tsc --noEmit   # Type checking
+```
+
+## 📱 Features
+
+- ✅ Multi-role system (Citizen, Admin, Super Admin, dll)
+- ✅ Responsive design
+- ✅ Real-time form validation
+- ✅ Mock data untuk demo
+- ✅ TypeScript support
+- ✅ Modern React with Hooks
+
+## 🏗️ Tech Stack
+
+- **Framework**: React 19 + TypeScript
+- **Build Tool**: Vite 8
+- **Styling**: Tailwind CSS 4
+- **Routing**: React Router 8
+- **Charts**: Recharts
+- **Linting**: Oxlint
+
+---
+
+**Status**: ✅ Production Ready
